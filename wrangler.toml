@@ -30,5 +30,5 @@ new_sqlite_classes = ["SSHSessionDO"]
 [[d1_databases]]
 binding = "DB"
 database_name = "edgessh-accounts"
-# 部署脚本在目标账户中查找或创建数据库，不把账户专属 ID 留在模板里。
+database_id = "1e6f60c2-b19c-45e4-b8f2-1d4ceea12bda"
 migrations_dir = "migrations"
